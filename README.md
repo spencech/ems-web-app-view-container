@@ -1,6 +1,6 @@
 # EMS Web Application Components: View Container
 
-**Note that this module has a peer dependency on ems-web-app-utils and underscore.js**
+**Note that this module has peer dependencies on ems-web-app-utils and underscore.js**
 
 	npm i underscore ems-web-app-utils ems-web-app-view-container
 
