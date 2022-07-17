@@ -1,0 +1,39 @@
+{
+  "name": "ems-web-app-view-container",
+  "version": "0.0.1",
+  "author": "Chris Spence (https://educationalmediasolutions.com)",
+  "description": "This angular.io module includes a component and service that can be used to render nested view containers that transition between screens (e.g., a tab container).",
+  "funding": "https://paypal.me/spencech",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0",
+    "underscore": "^1.13.4",
+    "ems-web-app-utils": "^0.0.21"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencech/ems-web-app-view-container.git"
+  },
+  "scripts": {
+    "publish": "git add -A . && git commit -m 'prepublish npm package' && npm version patch && ng build view-container && cd dist && npm publish"
+  },
+  "keywords": [
+    "ems",
+    "educational media solutions",
+    "educational",
+    "media",
+    "solutions",
+    "web app",
+    "web application",
+    "view",
+    "tabs",
+    "nested",
+    "angular.io",
+    "angular",
+    "module"
+  ]
+}
