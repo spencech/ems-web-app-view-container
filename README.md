@@ -60,7 +60,7 @@ Every view child must have an id assigned; ideally these ids should be unique ac
 ## Usage: Component Implementation
 
 	import { Component } from '@angular/core';
-	import { ViewContainerService } from "view-container";
+	import { ViewContainerService } from "ems-web-app-view-container";
 
 	@Component({
 	  selector: 'app-root',
