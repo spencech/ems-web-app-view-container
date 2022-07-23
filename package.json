@@ -1,6 +1,6 @@
 {
   "name": "ems-web-app-view-container",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Chris Spence (https://educationalmediasolutions.com)",
   "description": "This angular.io module includes a component and service that can be used to render nested view containers that transition between screens (e.g., a tab container).",
   "funding": "https://paypal.me/spencech",
