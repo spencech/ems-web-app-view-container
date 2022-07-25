@@ -53,6 +53,7 @@ export class ViewContainerComponent implements OnInit, AfterViewInit, OnDestroy 
   public setCurrentView(view:IView | null, callback?: () => void) {
     this.requestedView = view;
     this.callback = callback;
+    console.log(view);
     this.beginViewTransition();
   }
 
