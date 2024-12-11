@@ -47,7 +47,7 @@ export class ViewContainerComponent implements OnInit, AfterViewInit, OnDestroy 
   }
 
   ngOnDestroy() {
-    this.subscription.unsubscribe();
+    if(this.subscription) this.subscription.unsubscribe();
   }
 
   public setCurrentView(view:IView | null, callback?: () => void) {
